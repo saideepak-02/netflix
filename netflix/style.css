@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 100vh;
+    background: url("background.jpg") no-repeat center center/cover;
+}
+#back{
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    width: 100%;
+    
+   }
+   nav{
+    margin: 4px;
+    justify-content: space-between;
+
+   }
+.drop{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.net{
+    color: red;
+    font-size: 2rem;
+}
+.body{
+    color: white;
+    font-size: 1.5rem;
+    position: fixed;
+   justify-content: space-around;
+    text-align: center;
+    height: 70vh;
+
+}
+.big-text{
+    font-size: 3rem;
+}
